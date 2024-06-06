@@ -34,7 +34,7 @@ function Navbar() {
         <h1 className="font-Dancing font-black text-4xl text-blue-700">
           Logo
         </h1>
-        <ul className={`flex md:items-center gap-14 md:gap-12 lg:gap-16 flex-col md:flex-row absolute md:relative bg-gray-700 md:bg-transparent w-72 md:w-auto top-0 -z-20 md:z-auto left-0 md:left-auto ps-8 pt-24 md:p-0 h-full md:h-auto text-white md:text-gray-900 duration-700 ${isOpen ? 'left-0': 'left-[-800px]'}`}>
+        <ul className={`flex md:items-center gap-14 md:gap-12 lg:gap-16 flex-col md:flex-row absolute md:relative bg-gray-700 md:bg-transparent w-72 md:w-auto top-0 -z-20 md:z-auto left-0 md:left-auto ps-8 pt-24 md:p-0 h-full md:h-auto text-white md:text-gray-900 duration-700 ease-in-out ${isOpen ? 'left-0': 'left-[-800px]'}`}>
           {links.map((link) => (
             <li key={link.name}>
               <Link to={link.link}>{link.name}</Link>
