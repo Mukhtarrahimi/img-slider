@@ -2,6 +2,8 @@
     font-family: 'poppins';
     src: url(./assest/fonts/Poppins-Medium.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
