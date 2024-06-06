@@ -19,7 +19,7 @@ function Home() {
     <div>
       <Navbar />
       <div className="slider w-full ">
-        <Carousel>
+        <Carousel autoImages = {true} autoImagesInterval={5000}>
           {images.map((image) => (
             <img src={image} alt="" />
           ))}
